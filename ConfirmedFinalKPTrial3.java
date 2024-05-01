@@ -21,30 +21,18 @@ class Main {
     Scanner input = new Scanner(System.in);
 
     //objects: value, weight, name
-    Object x1 = new Object(25, 49, "Object 1");
-    Object x2 = new Object(56, 79, "Object 2");
-    Object x3 = new Object(69, 67, "Object 3");
-    Object x4 = new Object(56, 39, "Object 4");
-    Object x5 = new Object(42, 66, "Object 5");
-    Object x6 = new Object(30, 66, "Object 6");
-    Object x7 = new Object(21, 34, "Object 7");
-    Object x8 = new Object(62, 29, "Object 8");
-    Object x9 = new Object(54, 41, "Object 9");
-    Object x10 = new Object(6, 41, "Object 10");
-    Object x11 = new Object(59, 79, "Object 11");
-    Object x12 = new Object(10, 71, "Object 12");
-    Object x13 = new Object(8, 45, "Object 13");
-    Object x14 = new Object(4, 10, "Object 14");
-    Object x15 = new Object(14, 59, "Object 15");
-    Object x16 = new Object(66, 1, "Object 11");
-    Object x17 = new Object(52, 63, "Object 12");
-    Object x18 = new Object(74, 17, "Object 13");
-    Object x19 = new Object(33, 24, "Object 14");
-    Object x20 = new Object(47, 14, "Object 15");
+    Object x1 = new Object(12, 12, "Object 1");
+    Object x2 = new Object(2, 11, "Object 2");
+    Object x3 = new Object(5, 3, "Object 3");
+    Object x4 = new Object(3, 49, "Object 4");
+    Object x5 = new Object(1, 1, "Object 5");
+    Object x6 = new Object(2, 7, "Object 6");
+    Object x7 = new Object(2, 12, "Object 7");
+    Object x8 = new Object(16, 20, "Object 8");
 
-    int maxWeight = 100; //subject to change
+    int maxWeight = 40; //subject to change
 
-    //initialize arraylist (is there easier way?)
+    //initialize arraylist
     toAdd.add(x1);
     toAdd.add(x2);
     toAdd.add(x3);
