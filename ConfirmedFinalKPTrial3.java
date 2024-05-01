@@ -41,13 +41,6 @@ class Main {
     toAdd.add(x6);
     toAdd.add(x7);
     toAdd.add(x8);
-    toAdd.add(x9);
-    toAdd.add(x10);
-    toAdd.add(x11);
-    toAdd.add(x12);
-    toAdd.add(x13);
-    toAdd.add(x14);
-    toAdd.add(x15);
 
     //needs to be recorded
     int numberOfComputations = 0;
@@ -59,7 +52,7 @@ class Main {
       printAll(knapsack, toAdd);
 
       if(!checkWeight(knapsack, toAdd, maxWeight, numberOfComputations)) { 
-				//if not submitting
+	//if not submitting
         mutateKnapsack(knapsack, toAdd, checkChoice(knapsack.size(), toAdd.size(), maxWeight, knapsack));
       }
       else {
