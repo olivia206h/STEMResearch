@@ -12,34 +12,29 @@ import javax.swing.*;
 
 
 class Main {
-  public static void main(String[] args) {
-    //arraylists for knapsack and objects
-    ArrayList<Object> knapsack = new ArrayList<Object>();
-    ArrayList<Object> toAdd = new ArrayList<Object>();
+	public static void main(String[] args) {
+	
+	//arraylists for knapsack and objects
+	ArrayList<Object> knapsack = new ArrayList<Object>();
+	ArrayList<Object> toAdd = new ArrayList<Object>();
 
     //scanner
     Scanner input = new Scanner(System.in);
 
     //objects: value, weight, name
-    Object x1 = new Object(23, 25, "Object 1");
-    Object x2 = new Object(53, 27, "Object 2");
-    Object x3 = new Object(11, 21, "Object 3");
-    Object x4 = new Object(11, 20, "Object 4");
-    Object x5 = new Object(24, 46, "Object 5");
-    Object x6 = new Object(18, 35, "Object 6");
-    Object x7 = new Object(27, 40, "Object 7");
-    Object x8 = new Object(34, 44, "Object 8");
-    Object x9 = new Object(45, 45, "Object 9");
-    Object x10 = new Object(23, 24, "Object 10");
-    Object x11 = new Object(18, 6, "Object 11");
-    Object x12 = new Object(46, 51, "Object 12");
-    Object x13 = new Object(22, 27, "Object 13");
-    Object x14 = new Object(16, 38, "Object 14");
-    Object x15 = new Object(27, 5, "Object 15");
+    Object x1 = new Object(22, 11, "Object 1");
+    Object x2 = new Object(21, 22, "Object 2");
+    Object x3 = new Object(10, 20, "Object 3");
+    Object x4 = new Object(1, 23, "Object 4");
+    Object x5 = new Object(18, 25, "Object 5");
+    Object x6 = new Object(13, 1, "Object 6");
+    Object x7 = new Object(14, 12, "Object 7");
+    Object x8 = new Object(5, 1, "Object 8");
+    Object x9 = new Object(19, 16, "Object 9");
 
-    int maxWeight = 75; //subject to change
+    int maxWeight = 45;
 
-    //initialize arraylist (is there easier way?)
+    //initialize arraylist
     toAdd.add(x1);
     toAdd.add(x2);
     toAdd.add(x3);
@@ -49,12 +44,6 @@ class Main {
     toAdd.add(x7);
     toAdd.add(x8);
     toAdd.add(x9);
-    toAdd.add(x10);
-    toAdd.add(x11);
-    toAdd.add(x12);
-    toAdd.add(x13);
-    toAdd.add(x14);
-    toAdd.add(x15);
 
     //needs to be recorded
     int numberOfComputations = 0;
