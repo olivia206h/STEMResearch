@@ -1,6 +1,6 @@
 //Olivia Hill
 //11/09/23
-//Knapsack Simulator Try 2
+//Knapsack Simulator
 import java.util.Scanner;
 import java.util.ArrayList;
 //import org.apache.commons.lang3.time.StopWatch;
